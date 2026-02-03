@@ -1,5 +1,10 @@
-add_executable(more-display ${SOURCES})
-target_sources(more-display
+add_executable(moredisplay ${SOURCES})
+target_sources(moredisplay
     PRIVATE
         main.cpp
+)
+
+target_link_libraries(moredisplay
+    PRIVATE
+        moredisplay_lib::library
 )

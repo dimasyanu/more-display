@@ -1,8 +1,9 @@
 cmake_minimum_required(VERSION 3.15)
-project(MoreDisplay)
-
+project(MoreDisplay LANGUAGE CXX)
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED On)
+set(CMAKE_CXX_EXTENSIONS Off)
 
 # Search for EVDI library
 find_library(EVDI_LIB evdi)
@@ -27,7 +28,5 @@ else()
     list(APPEND SOURCES LinuxEvdiManager.hpp)
 endif()
 
-add_executable(vscreen ${SOURCES})
-
-# Link against EVDI and Threading library
-target_link_libraries(vscreen ${EVDI_LIB} pthread)
+add_subdirectory(src/library)
+add_subdirectory(src/executable)

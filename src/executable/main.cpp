@@ -1,4 +1,4 @@
-#include "VirtualDisplayManager.hpp"
+#include "../library/include/VirtualDisplayManager/VirtualDisplayManager.hpp"
 #include <iostream>
 
 int main() {

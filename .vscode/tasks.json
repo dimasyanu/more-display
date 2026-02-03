@@ -1,6 +1,11 @@
 {
     "tasks": [
         {
+            "type": "shell",
+            "label": "build",
+            "command": "rm -rf build/debug && mkdir -p build/debug && cd build/debug && cmake -DCMAKE_BUILD_TYPE=Debug ../.. && cmake --build ."
+        },
+        {
             "type": "cppbuild",
             "label": "C/C++: g++ build active file",
             "command": "/usr/bin/g++",

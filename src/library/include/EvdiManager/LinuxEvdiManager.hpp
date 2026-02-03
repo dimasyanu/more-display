@@ -1,11 +1,10 @@
 #pragma once
 
-#include "VirtualDisplayManager.hpp"
+#include "../Constants/edid_data.hpp"
+#include "../VirtualDisplayManager/VirtualDisplayManager.hpp"
 #include "evdi_lib.h"
-#include "edid_data.hpp"
 #include <stdlib.h>
 #include <stdio.h>
-#include <thread>
 #include <atomic>
 
 class LinuxEvdiManager : public VirtualDisplayManager {

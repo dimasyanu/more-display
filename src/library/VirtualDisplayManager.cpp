@@ -1,4 +1,4 @@
-#include "VirtualDisplayManager.hpp"
+#include "include/VirtualDisplayManager/VirtualDisplayManager.hpp"
 
 #ifdef __linux__
     #include "include/EvdiManager/LinuxEvdiManager.hpp"

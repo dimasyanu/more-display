@@ -22,7 +22,7 @@ endif()
 target_include_directories(library PUBLIC include)
 
 # Link against EVDI and Threading library
-target_link_libraries(more-display
+target_link_libraries(library
     ${EVDI_LIB}
     pthread
 )

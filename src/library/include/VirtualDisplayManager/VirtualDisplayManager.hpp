@@ -3,7 +3,6 @@
 #include <cstdint>
 #include <functional>
 #include <memory>
-#include <vector>
 
 // Represents the raw pixel data captured from the OS
 struct ScreenFrame

@@ -2,5 +2,8 @@
   "prettier.bracketSameLine": true,
   "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
   "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
-  "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine"
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+  "cmake.autoSelectActiveFolder": false,
+  "cmake.buildDirectory": "${workspaceFolder}/build/debug",
+  "cmake.buildTask": true
 }

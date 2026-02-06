@@ -5,7 +5,7 @@ int main() {
     auto manager = VirtualDisplayManager::create();
 
     if (!manager->initialize()){
-        std::cerr << "Failed to find EVDI device. Is modprobe evdi run?" << std::endl;
+        std::cerr << "Failed to find EVDI device. Is modprobe evdi run(lsmod | grep evdi)? If it isn't, then run: sudo modprobe evdi." << std::endl;
         return 1;
     }
 

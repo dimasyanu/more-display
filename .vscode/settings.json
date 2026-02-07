@@ -6,5 +6,10 @@
   "cmake.autoSelectActiveFolder": false,
   "cmake.buildDirectory": "${workspaceFolder}/build/debug",
   "cmake.buildTask": true,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "cmake.cmakePath": "/usr/bin/cmake",
+  "cmake.options.statusBarVisibility": "compact",
+  "cmake.configureSettings": {
+    "CMAKE_MAKE_PROGRAM": "/usr/bin/ninja"
+  }
 }
